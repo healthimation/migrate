@@ -1,4 +1,4 @@
-FROM golang:1.11 as builder
+FROM golang:1.14 as builder
 COPY . /go/src/github.com/away-team/migrate
 WORKDIR /go/src/github.com/away-team/migrate
 RUN CGO_ENABLED=0 GOOS=linux go build -a -ldflags "-s" -installsuffix cgo -o bin/migrate *.go
