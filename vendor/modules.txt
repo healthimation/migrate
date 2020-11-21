@@ -1,0 +1,91 @@
+# github.com/aws/aws-sdk-go v1.35.33
+## explicit
+github.com/aws/aws-sdk-go/aws
+github.com/aws/aws-sdk-go/aws/awserr
+github.com/aws/aws-sdk-go/aws/awsutil
+github.com/aws/aws-sdk-go/aws/client
+github.com/aws/aws-sdk-go/aws/client/metadata
+github.com/aws/aws-sdk-go/aws/corehandlers
+github.com/aws/aws-sdk-go/aws/credentials
+github.com/aws/aws-sdk-go/aws/credentials/ec2rolecreds
+github.com/aws/aws-sdk-go/aws/credentials/endpointcreds
+github.com/aws/aws-sdk-go/aws/credentials/processcreds
+github.com/aws/aws-sdk-go/aws/credentials/stscreds
+github.com/aws/aws-sdk-go/aws/csm
+github.com/aws/aws-sdk-go/aws/defaults
+github.com/aws/aws-sdk-go/aws/ec2metadata
+github.com/aws/aws-sdk-go/aws/endpoints
+github.com/aws/aws-sdk-go/aws/request
+github.com/aws/aws-sdk-go/aws/session
+github.com/aws/aws-sdk-go/aws/signer/v4
+github.com/aws/aws-sdk-go/internal/context
+github.com/aws/aws-sdk-go/internal/ini
+github.com/aws/aws-sdk-go/internal/sdkio
+github.com/aws/aws-sdk-go/internal/sdkmath
+github.com/aws/aws-sdk-go/internal/sdkrand
+github.com/aws/aws-sdk-go/internal/sdkuri
+github.com/aws/aws-sdk-go/internal/shareddefaults
+github.com/aws/aws-sdk-go/internal/strings
+github.com/aws/aws-sdk-go/internal/sync/singleflight
+github.com/aws/aws-sdk-go/private/protocol
+github.com/aws/aws-sdk-go/private/protocol/json/jsonutil
+github.com/aws/aws-sdk-go/private/protocol/jsonrpc
+github.com/aws/aws-sdk-go/private/protocol/query
+github.com/aws/aws-sdk-go/private/protocol/query/queryutil
+github.com/aws/aws-sdk-go/private/protocol/rest
+github.com/aws/aws-sdk-go/private/protocol/xml/xmlutil
+github.com/aws/aws-sdk-go/service/ssm
+github.com/aws/aws-sdk-go/service/sts
+github.com/aws/aws-sdk-go/service/sts/stsiface
+# github.com/divideandconquer/go-consul-client v0.0.0-20180130194757-f32091db2bf4
+## explicit
+github.com/divideandconquer/go-consul-client/src/config
+# github.com/fatih/color v1.5.1-0.20170926111411-5df930a27be2
+## explicit
+github.com/fatih/color
+# github.com/go-sql-driver/mysql v1.2.1-0.20161020111133-dbc3fe23a4ac
+## explicit
+github.com/go-sql-driver/mysql
+# github.com/gocql/gocql v0.0.0-20180113133114-697e7c57f99b
+## explicit
+github.com/gocql/gocql
+github.com/gocql/gocql/internal/lru
+github.com/gocql/gocql/internal/murmur
+github.com/gocql/gocql/internal/streams
+# github.com/golang/snappy v0.0.0-20170215233205-553a64147049
+## explicit
+github.com/golang/snappy
+# github.com/hailocab/go-hostpool v0.0.0-20160125115350-e80d13ce29ed
+## explicit
+github.com/hailocab/go-hostpool
+# github.com/healthimation/go-aws-config v0.0.0-20171201195501-04e82c466421
+## explicit
+github.com/healthimation/go-aws-config/src/awsconfig
+# github.com/jmespath/go-jmespath v0.4.0
+github.com/jmespath/go-jmespath
+# github.com/lib/pq v0.0.0-20180118035737-27ea5d92de30
+## explicit
+github.com/lib/pq
+github.com/lib/pq/oid
+# github.com/mattn/go-colorable v0.1.8
+## explicit
+github.com/mattn/go-colorable
+# github.com/mattn/go-isatty v0.0.12
+github.com/mattn/go-isatty
+# github.com/turbine/migrate v1.2.1-0.20161104153942-9088c0b61e00
+## explicit
+github.com/turbine/migrate/driver
+github.com/turbine/migrate/driver/bash
+github.com/turbine/migrate/driver/cassandra
+github.com/turbine/migrate/driver/mysql
+github.com/turbine/migrate/driver/postgres
+github.com/turbine/migrate/file
+github.com/turbine/migrate/migrate
+github.com/turbine/migrate/migrate/direction
+github.com/turbine/migrate/pipe
+# golang.org/x/sys v0.0.0-20200930185726-fdedc70b468f
+golang.org/x/sys/internal/unsafeheader
+golang.org/x/sys/unix
+# gopkg.in/inf.v0 v0.9.0
+## explicit
+gopkg.in/inf.v0
