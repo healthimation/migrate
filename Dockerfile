@@ -7,6 +7,7 @@ RUN CGO_ENABLED=0 GOOS=linux GO111MODULE=on go build -mod=vendor -a -ldflags "-s
 # pin to 3.11 for image scanning service support
 FROM alpine:3.11
 RUN apk --no-cache add tzdata ca-certificates bash
+WORKDIR /
 COPY --from=build /app/bin/migrate .
 
 ENTRYPOINT  ["/migrate"]
